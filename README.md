@@ -29,4 +29,4 @@ I managed this project using **Trello** to implement an Agile workflow, ensuring
 * **Peak Hours:** Engagement spikes significantly between **8:00 PM and 11:00 PM**.
 
 ## 🔒 Privacy & Documentation
-*Detailed screenshots of the dashboard are available in the `/screenshots` folder. For privacy reasons, the full `.pbix` file and private dataset are not public, but a sample dataset and the Python logic are provided.*
+*Detailed screenshots of the dashboard are available in the `/Screenshots` folder. For privacy reasons, the full `.pbix` file and private dataset are not public, but a sample dataset and the Python logic are provided.*
