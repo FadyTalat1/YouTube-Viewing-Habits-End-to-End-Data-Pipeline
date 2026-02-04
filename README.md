@@ -1,6 +1,6 @@
 # 📊 YouTube Behavioral Analytics Pipeline
 
-![Dashboard Screenshot](HomePage.png) 
+![Dashboard Screenshot](Home_Page.png) 
 
 ## 📝 Project Overview
 An end-to-end data analytics project focused on transforming **16,000+ personal YouTube viewing records** from raw, unstructured HTML into a high-fidelity interactive dashboard. This project demonstrates the full data lifecycle: from automated scraping to UI/UX design and behavioral insight generation.
