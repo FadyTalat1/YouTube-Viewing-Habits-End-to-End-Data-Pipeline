@@ -1,43 +1,32 @@
-# 📊 YouTube Viewing Habits: End-to-End Data Pipeline
+# 📊 YouTube Behavioral Analytics Pipeline
 
-![Dashboard Screenshot](link_to_your_image_here.png) 
+![Dashboard Screenshot](your_image_link_here.png) 
 
 ## 📝 Project Overview
-This project is a comprehensive analysis of my personal YouTube viewing history (16,000+ records). The goal was to transform raw, unstructured HTML data into a high-fidelity interactive dashboard to uncover behavioral patterns and consumption habits.
+An end-to-end data analytics project focused on transforming **16,000+ personal YouTube viewing records** from raw, unstructured HTML into a high-fidelity interactive dashboard. This project demonstrates the full data lifecycle: from automated scraping to UI/UX design and behavioral insight generation.
 
 ## 🚀 Technical Stack
-* **Data Engineering:** Python (BeautifulSoup) for Web Scraping & Data Parsing.
+* **Data Engineering:** Python (BeautifulSoup) for Web Scraping & Data Cleaning.
 * **Data Visualization:** Power BI (DAX & Power Query).
-* **Design:** Figma (Custom UI/UX Backgrounds).
-* **Project Management:** Trello (Agile Methodology).
+* **UI/UX Design:** Figma (Custom Dashboard Interface & Backgrounds).
+* **Project Management:** Trello (Agile Workflow).
 
-## 🛠️ Data Pipeline Steps
+## 📋 Project Management (Trello)
+I managed this project using **Trello** to implement an Agile workflow, ensuring each phase was completed efficiently:
+- **Phase 1:** Data Extraction (Python Scripting).
+- **Phase 2:** UI/UX Design (Figma Wireframing).
+- **Phase 3:** Data Modeling (Power BI & DAX).
+- **Phase 4:** Insights & Documentation.
 
-### 1. Extraction (Python)
-- Exported raw data from Google Takeout in HTML format.
-- Developed a **Python script** to parse the HTML tags and extract: `Video Title`, `Channel Name`, `Timestamp`, and `Video Link`.
-- Cleaned the data and exported it to a structured **CSV** file.
+## 🛠️ Data Pipeline
+1. **Extraction:** Developed a **Python script** to parse raw HTML files (Google Takeout), extracting `Title`, `Channel`, and `Timestamp`.
+2. **Design:** Created a custom theme in **Figma** to optimize visual hierarchy and user experience (UX).
+3. **Analysis:** Modeled the data in **Power BI** to track consumption trends and engagement patterns.
 
-### 2. UI/UX Design (Figma)
-- Designed a custom **Figma background** to ensure a professional and non-distracting user interface.
-- Focused on visual hierarchy to highlight Key Performance Indicators (KPIs).
+## 📈 Key Insights (Anonymized)
+* **Volume:** 16,000+ total videos analyzed.
+* **Daily Average:** 51 videos watched per day.
+* **Peak Hours:** Engagement spikes significantly between **8:00 PM and 11:00 PM**.
 
-### 3. Analysis & Modeling (Power BI)
-- Imported the CSV and performed data transformation in **Power Query**.
-- Created a **Calendar Table** to analyze trends by hour, day, and month.
-- Developed **DAX measures** to calculate:
-    - Total Videos Watched.
-    - Average Videos per Day.
-    - Year-over-Year (YoY) Growth in consumption.
-
-## 📈 Key Insights
-* **Volume:** Analyzed **16.7K** total videos watched.
-* **Daily Habit:** Average of **51 videos** per day.
-* **Peak Hours:** Viewing activity peaks between **8:00 PM and 11:00 PM**.
-* **Top Categories:** (Mention your top 3 categories here, e.g., Education, Tech, Podcasts).
-
-## 📂 Repository Structure
-* `/scripts`: Python scraping script.
-* `/data`: Sample data (make sure to anonymize or use a small sample).
-* `/design`: Figma exported assets.
-* `/report`: Power BI (.pbix) file.
+## 🔒 Privacy & Documentation
+*Detailed screenshots of the dashboard are available in the `/screenshots` folder. For privacy reasons, the full `.pbix` file and private dataset are not public, but a sample dataset and the Python logic are provided.*
