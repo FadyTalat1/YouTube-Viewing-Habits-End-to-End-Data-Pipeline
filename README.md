@@ -12,7 +12,8 @@ An end-to-end data analytics project focused on transforming **16,000+ personal 
 * **Project Management:** Trello (Agile Workflow).
 
 ## 📋 Project Management (Trello)
-![Trello workflow Screenshot](Trello.png) 
+![Trello workflow Screenshot](Trello.jpg) 
+
 I managed this project using **Trello** to implement an Agile workflow, ensuring each phase was completed efficiently:
 - **Phase 1:** Data Extraction (Python Scripting).
 - **Phase 2:** UI/UX Design (Figma Wireframing).
