@@ -41,8 +41,3 @@ This project is a comprehensive analysis of my personal YouTube viewing history 
 * `/data`: Sample data (make sure to anonymize or use a small sample).
 * `/design`: Figma exported assets.
 * `/report`: Power BI (.pbix) file.
-
-## 🔗 How to use
-1. Clone this repository.
-2. Run the Python script in `/scripts` to see how data is parsed.
-3. Open the `.pbix` file to interact with the dashboard.
